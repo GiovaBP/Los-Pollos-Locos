@@ -1,0 +1,11 @@
+MAIN
+
+public class Main {
+    public static void main(String[] args) {
+        Player player = new Player("Guerrero");
+        Enemy enemy = new Enemy("Necromante");
+
+        Game game = new Game(player, enemy);
+        game.initiateGame();
+    }
+}
