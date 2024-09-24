@@ -1,0 +1,17 @@
+STATS
+
+public enum Stats {
+    HEALTH,
+    MAX_HEALTH,
+    MANA,
+    MAX_MANA,
+    STRENGTH,
+    RESISTANCE,
+    AGILITY,
+    PRECISION,
+    CHANCE,
+    HIT_RATE,
+    DODGE_RATE,
+    CRIT_RATE,
+    CRIT_DAMAGE
+}
