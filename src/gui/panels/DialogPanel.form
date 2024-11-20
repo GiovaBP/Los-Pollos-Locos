@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.panels.DialogPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="182"/>
+    </constraints>
+    <properties>
+      <maximumSize width="500" height="182"/>
+      <minimumSize width="500" height="182"/>
+      <opaque value="false"/>
+      <preferredSize width="500" height="182"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="a79f5">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <scrollpane id="374b8" binding="scrollPanel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="162"/>
+            <preferred-size width="-1" height="162"/>
+            <maximum-size width="-1" height="162"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <foreground color="-16718384"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none">
+          <color color="-16163355"/>
+        </border>
+        <children>
+          <component id="3f06b" class="javax.swing.JTextArea" binding="dialogBox">
+            <constraints/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="374b8"/>
+  </inspectionSuppressions>
+</form>
